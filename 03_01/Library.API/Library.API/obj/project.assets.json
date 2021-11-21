@@ -6288,19 +6288,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ervis Trupja\\.nuget\\packages\\": {}
+    "C:\\Users\\nguye\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ervis Trupja\\Documents\\UNIT TESTING\\Exercise Files\\Ch03\\03_01\\Library.API\\Library.API\\Library.API.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\Documents\\GitHub\\LinkedinLearn\\03_01\\Library.API\\Library.API\\Library.API.csproj",
       "projectName": "Library.API",
-      "projectPath": "C:\\Users\\Ervis Trupja\\Documents\\UNIT TESTING\\Exercise Files\\Ch03\\03_01\\Library.API\\Library.API\\Library.API.csproj",
-      "packagesPath": "C:\\Users\\Ervis Trupja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ervis Trupja\\Documents\\UNIT TESTING\\Exercise Files\\Ch03\\03_01\\Library.API\\Library.API\\obj\\",
+      "projectPath": "C:\\Users\\nguye\\Documents\\GitHub\\LinkedinLearn\\03_01\\Library.API\\Library.API\\Library.API.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nguye\\Documents\\GitHub\\LinkedinLearn\\03_01\\Library.API\\Library.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Ervis Trupja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6312,6 +6317,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6323,6 +6329,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
@@ -6351,7 +6358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
