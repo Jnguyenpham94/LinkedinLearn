@@ -6,8 +6,9 @@
     "\\03_01",
     "\\03_01\\Library.API",
     "\\04_01",
-    "\\04_01\\LibraryApp"
+    "\\04_01\\LibraryApp",
+    "\\04_01\\LibraryApp\\LibraryApp.test"
   ],
-  "SelectedNode": "\\04_01\\LibraryApp\\LibraryApp.sln",
+  "SelectedNode": "\\04_01\\LibraryApp\\LibraryApp.test\\BooksControllerTest.cs",
   "PreviewInSolutionExplorer": false
 }
