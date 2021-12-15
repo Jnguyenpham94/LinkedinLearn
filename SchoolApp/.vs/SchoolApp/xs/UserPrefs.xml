@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{C109D6CF-3E66-4DF9-B79F-87A052E321A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="School.API/Controllers/StudentsController.cs">
+    <Files>
+      <File FileName="School.API/Controllers/StudentsController.cs" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SchoolApp" expanded="True">
+            <Node name="School.API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="StudentsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.School.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Production/Projects/Video/Video In Progress/ASPNET_Core_Security_2019_Revision_2815063/2_Project/Exercise Files/Ch01/01_02/Start/SchoolApp/School.API/Controllers/StudentsController.cs" relfile="School.API/Controllers/StudentsController.cs" line="27" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
