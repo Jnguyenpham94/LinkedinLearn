@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using School.API.Models;
+using School.API.ViewModels;
 
 namespace School.API.Controllers
 {
@@ -23,7 +24,7 @@ namespace School.API.Controllers
 
         // POST api/students
         [HttpPost]
-        public void Post([FromBody] Student student)
+        public void Post([FromBody] StudentVM student)
         {
             var requestData = student;
             //Save data to DB
