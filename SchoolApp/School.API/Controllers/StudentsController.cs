@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -13,16 +14,27 @@ namespace School.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors]
+    //[EnableCors]
     public class StudentsController : ControllerBase
     {
+        private IDataProtector _protector;
+        public StudentsController(IDataProtectionProvider provider)
+        {
+            _protector = provider.CreateProtector("StudentController");
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> Get()
+        public ActionResult<string> Get()
         {
-            IEnumerable<Student> allStudents = GetAllStudents();
-            Student getStudentByName = GetStudentByName();
-            return Ok(allStudents);
+            var name = "LinkedIn Learning";
+
+            var protectedValue = _protector.Protect(name);
+            var unprotectedValue = _protector.Unprotect(protectedValue);
+
+            var result = $"{protectedValue} - {unprotectedValue}";
+
+            return Ok(result);
         }
 
 
