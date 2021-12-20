@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="identityserver4" Version="4.1.2" />
+    <PackageReference Include="microsoft.openapi" Version="1.2.3" />
+  </ItemGroup>
+
 
 </Project>

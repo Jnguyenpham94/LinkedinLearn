@@ -28,7 +28,10 @@ namespace IdentityApi
         {
             services.AddIdentityServer()
                 .AddInMemoryIdentityResources(ConfigResources.GetIdentityResources())
-                .AddInMemoryApiResources(ConfigResources.GetApiResources());
+                .AddInMemoryApiResources(ConfigResources.GetApiResources())
+                .AddInMemoryClients(Clients.GetClients())
+                .AddTestUsers(Users.GetTestUsers())
+                .AddDeveloperSigningCredential();
 
             services.AddControllers();
         }

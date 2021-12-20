@@ -32,13 +32,13 @@ namespace IdentityApi.Configs
                     Description = "Custom API",
                     UserClaims = new List<string>{"role"},
                     ApiSecrets = new List<Secret>{new Secret("secret".Sha256())},
-                    Scopes = new List<Scope>
-                    {
-                        new Scope("customAPI.read"),
-                        new Scope("customAPI.write"),
-                        new Scope("customAPI.update"),
-                        new Scope("customAPI.delete"),
-                    }
+                    //Scopes = new List<Scope>
+                    //{
+                    //    new Scope("customAPI.read"),
+                    //    new Scope("customAPI.write"),
+                    //    new Scope("customAPI.update"),
+                    //    new Scope("customAPI.delete"),
+                    //}
                 }
             };
         }
