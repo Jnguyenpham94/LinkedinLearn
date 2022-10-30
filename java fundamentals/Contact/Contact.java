@@ -6,7 +6,7 @@ package Contact;
 public class Contact {
     private String name;
     private PhoneNumber phoneNumber;
-    private String emailAddress;
+    private String emailAddress = "NOT ON RECORD";
 
     public Contact(String name, PhoneNumber phoneNumber, String emailAddress) {
         this.name = name;
@@ -26,7 +26,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact{" + "name:'" + this.name + "\'" + ", phoneNumber: " + phoneNumber + ", emailAddress:'"
-                + emailAddress + "\'" + '}';
+        return "Contact{" + "name:'" + name + "\'" + ", phoneNumber: " + phoneNumber + ", emailAddress:'"
+                + emailAddress + "\'" + "}";
     }
 }
